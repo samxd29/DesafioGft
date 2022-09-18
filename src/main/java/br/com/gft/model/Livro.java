@@ -7,8 +7,7 @@ public class Livro extends Produto implements Imposto {
     private String tema;
     private int qtdPag;
 
-    public Livro() {
-    }
+    private Livro() {};
 
     public Livro(String nome, double preco, int qtd, String autor, String tema, int qtdPag) {
         super(nome, preco, qtd);
@@ -53,4 +52,5 @@ public class Livro extends Produto implements Imposto {
         }
 
     }
+
 }

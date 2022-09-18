@@ -31,6 +31,9 @@ public class Main {
 
         Loja americanas = new Loja("Americanas ", "12345678", livros, games);
 
+        americanas.listaLivros();
+        americanas.listaVideoGames();
+
         System.out.println("R$ " + l2.calculaImposto() + " sobre o livro " + l2.getNome());
         System.out.println("Livro " + l3.getNome() + " imposto: " + l3.calculaImposto());
         System.out.println("==================================================================");
